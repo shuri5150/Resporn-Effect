@@ -34,6 +34,34 @@ nav a {
     color: var(--text-color);
     text-decoration: none;
     font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: var(--accent-color);
+}
+
+.lang-switch-item {
+    display: flex;
+    align-items: center;
+}
+
+.lang-btn {
+    background: transparent;
+    border: 1px solid var(--text-color);
+    color: var(--text-color);
+    padding: 5px 12px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin-left: 10px;
+}
+
+.lang-btn:hover {
+    background: var(--text-color);
+    color: var(--bg-color);
 }
 
 /* ヒーローセクション：一番最初に目に入る大きな部分 */
